@@ -1,0 +1,12 @@
+@use 'sass:math';
+$width: 380px;
+$border-opacity: math.percentage(1/8);
+
+.title-heading {
+  background-color: aliceblue;
+  font-family: sans-serif;
+  text-align:center;
+  color: steelblue;
+  border: 2px solid rgba(0,0,0, $border-opacity);
+  width: $width;
+}
