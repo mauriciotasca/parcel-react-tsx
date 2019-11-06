@@ -1,6 +1,9 @@
 @use 'sass:math';
 $width: 380px;
 $border-opacity: math.percentage(1/8);
+body{
+  font-family: sans-serif;
+}
 
 .title-heading {
   background-color: aliceblue;

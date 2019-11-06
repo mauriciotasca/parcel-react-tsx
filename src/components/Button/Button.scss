@@ -1,0 +1,17 @@
+.button{
+  border-radius: 10px;
+  width: 80px;
+  padding:8px;
+  text-align:center;
+  color: #2f2e6f;
+  border: 2px solid transparent;
+
+  &:focus{
+    border: 2px solid darkgray;
+  }
+
+  &:active{
+    border: 2px solid #2f2e6f;
+  }
+  outline: none;
+}
